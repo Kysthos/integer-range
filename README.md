@@ -9,7 +9,7 @@
 > * `signed` \<Boolean>
 > * `bits` \<integer>
 
-`min` and `max` will be `BigInt` when they are not safe js integers (as tested using `Number.isSafeInteger`).
+`min` and `max` will be `BigInt` when they are not safe js integers (as tested using `Number.isSafeInteger`). `safe` will be set to `false` in such case.
 ```js
 console.log(intRange(8))
 console.log(intRange(8, true))
