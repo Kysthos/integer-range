@@ -1,7 +1,7 @@
 **intRange(bits[, signed])**
 
 * `bits` \<integer>
-* `signed` \<boolean> [default: `false`]
+* `signed` \<Boolean> [default: `false`]
 * Returns \<Object> with following properties:
 > * `min` \<integer> | \<BigInt> [lowest possible value]
 > * `max` \<integer> | \<BigInt> [highest possible value]
